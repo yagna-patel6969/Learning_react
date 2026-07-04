@@ -1,0 +1,7 @@
+1.React treat element as a tree like this 
+	const reactElement = {
+			tpes : (it can be a tag,p tag etc..),
+			props : (it is a properties like href 					etc.. also this is a object),
+			children : (some text)
+				}
+			
