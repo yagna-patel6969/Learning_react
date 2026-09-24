@@ -1,0 +1,12 @@
+*{
+  background-color: black;
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bolder;
+}
+button{
+  background-color: orangered;
+  border-radius: 15px;
+  /* padding: 2px; */
+  margin: 3px;
+}
