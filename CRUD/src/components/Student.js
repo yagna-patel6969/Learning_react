@@ -49,11 +49,7 @@ export const Student = () => {
                             <td>{elem.gender}</td>
                             <td>
                                 <button onClick={()=>{DeleteData(elem.id)}}>DELETE</button>
-                                <Link to={"/add"}>
-                                    <button>
-                                        ADD
-                                    </button>
-                                </Link>
+                                
                                 <Link to={"/update/"+elem.id}>
                                     <button>
                                         UPDATE
@@ -64,6 +60,11 @@ export const Student = () => {
                     )})}
                 </tbody>
             </table>
+            <Link to={"/add"}>
+                                    <button>
+                                        ADD
+                                    </button>
+                                </Link>
         </>
     )
 }

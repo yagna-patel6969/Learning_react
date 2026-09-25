@@ -30,7 +30,7 @@ export const UpdateStudent = () => {
             .then((data)=>{
                 setData(data)
             })
-    },[])
+    },[id])
 
     return (
         <>
